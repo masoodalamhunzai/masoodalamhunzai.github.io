@@ -1,0 +1,157 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+h1 h2 h3 h4 h5 h6 p {
+    font-family: 'Courier New', Courier, monospace;   
+}
+/* Wrapper */
+#wrapper {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(61, 57, 57);
+}
+/* Container */
+#container{
+margin: 0 auto;
+padding:0px;
+background-color: antiquewhite;
+width: 1000px;
+height: auto;
+border-top: solid 1px maroon;
+}
+/*  Create Div */
+.create_div {
+    width:inherit;
+    height: 310px;
+    margin: 0px;
+    padding: 0px;  
+}
+/* Create Div title */
+.p_detail_title{
+    width:300px;
+    height:inherit;
+    margin: 0px;
+    float: left;
+    text-align: center;
+    padding: 0px;
+    background-color: rgb(207, 203, 203);
+    border-right: solid 1px maroon;
+    border-left: solid 1px maroon;
+    box-sizing: border-box;
+}
+/* create detail div */
+.personal_details {
+    float: right;
+    width:700px;
+    height:inherit; 
+    background-color: rgb(250, 246, 246);
+    overflow: hidden;  
+    margin: 0px;
+    box-sizing: border-box;
+    border-bottom: solid 1px maroon;
+}
+/* Profile Picture */
+.p_detail_title img{
+    margin-top:20px;
+    margin-left:30px;
+    border:2px solid rgb(250, 246, 246);
+    width:180px;
+    height: 180px;
+    opacity: 0.9;
+    border-radius: 3px;
+}
+.personal_details #info{
+    width: 300px;
+    height: auto;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.personal_details #details{
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-top: 5px;
+    padding: 0px;
+}
+h1{
+    color:rgb(141, 24, 24);
+    font-size: 1.6em;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 25px;
+    padding: 5px;   
+}
+ h2{
+    color:rgb(141, 24, 24);
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top:10px;
+    padding: 0px;
+    line-height: 0.7em;
+   
+}
+h3{
+    color:rgb(141, 24, 24);
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px;
+    margin-top:70px;
+    text-transform: uppercase;
+}
+h4{
+    color:rgb(141, 24, 24);
+    font-size: 0.9em;
+    font-weight:lighter;
+    margin-left:40px;
+    margin-top:8px;
+    padding: 0px;
+    line-height: 1em;
+}
+ h5{
+    color:rgb(141, 24, 24);
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-left:15px;
+    margin-top:11px;
+    padding: 0px;
+    line-height: 0.8em;
+   
+}
+ p{
+    color:rgb(141, 24, 24);
+    font-size: 1.2em;
+    font-weight:lighter;
+    margin-left:15px;
+    margin-top:40px;
+    overflow: hidden;
+    padding: 15px;
+    line-height: 1.8em;
+}
+hr{
+    width:100%;
+    height: 0px;
+    margin-top:40px;
+    margin-left: 15%;
+    background-color:rgb(202, 151, 151);
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+
+}
+ul li{
+    display: list-item;
+    list-style-type: circle;
+    margin-left: 40px;
+    padding: 5px;
+    color:rgb(141, 24, 24);
+    font-size: 1em;
+}
